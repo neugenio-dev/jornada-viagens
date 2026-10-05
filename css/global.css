@@ -37,4 +37,25 @@ button {
 
 body {
   font-family: "Monserrat";
+  color: var(--backgound-tertiary-color);
+}
+
+.section-title h2 {
+  font-size: 28px;
+  font-weight: var(--titles-weight);
+  margin: 0px;
+  text-align: center;
+}
+.section-title hr {
+  width: 180px;
+  height: 4px;
+  background-color: var(--secondary-color);
+  border: none;
+  margin: 16px auto 32px;
+}
+
+@media screen and (widht: 768px) {
+  .section-title h2 {
+    font-size: 32px;
+  }
 }
