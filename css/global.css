@@ -28,8 +28,6 @@ h4,
 h5,
 h6,
 p,
-ul,
-li,
 input,
 button {
   margin: 0;
@@ -37,8 +35,6 @@ button {
   box-sizing: border-box;
 }
 
-h1 {
+body {
   font-family: "Monserrat";
-  font-weight: var(--titles-weight);
 }
-
