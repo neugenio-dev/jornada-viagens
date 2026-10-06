@@ -15,15 +15,12 @@
   --text-primary-color: #222222;
   --text-secondary-color: #ffffff;
 
-  --titles-weight: 700;
+  --title-weight: 700;
   --text-weight: 400;
   --menu-text-weight: 500;
 }
 
 body,
-h1,
-h2,
-h3,
 h4,
 h5,
 h6,
