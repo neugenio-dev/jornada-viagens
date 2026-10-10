@@ -39,7 +39,7 @@ body {
 
 .section-title h2 {
   font-size: 28px;
-  font-weight: var(--titles-weight);
+  font-weight: var(--title-weight);
   margin: 0px;
   text-align: center;
 }
