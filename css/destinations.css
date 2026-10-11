@@ -5,3 +5,77 @@
   padding: 0px;
   margin-bottom: 24px;
 }
+
+.item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.item h4 {
+  margin-top: 24px;
+  font-size: 28px;
+}
+
+.item .img-item-tokio {
+  width: 312px;
+  height: 360px;
+  background-image: url(../img/tokio-mobile.png);
+}
+.item .img-item-osaka {
+  width: 312px;
+  height: 360px;
+  background-image: url(../img/osaka-mobile.png);
+}
+.item p {
+  width: 312px;
+  font-size: 20px;
+  text-align: left;
+  margin-bottom: 24px;
+  line-height: 32px;
+}
+
+.item .button {
+  width: 312px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+@media screen and (min-width: 720px) {
+  .item .img-item-tokio {
+    width: 648px;
+    height: 452px;
+    background-image: url(../img/tokio-tablets-desktop.png);
+  }
+  .item .img-item-osaka {
+    width: 648px;
+    height: 452px;
+    background-image: url(../img/osaka-tablets-desktop.png);
+  }
+
+  .item p {
+    width: 648px;
+  }
+
+  .item footer {
+    width: 648px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .destinations-itens {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 24px;
+  }
+
+  .item .img-item-tokio,
+  .item .img-item-osaka {
+    width: 588px;
+    height: 452px;
+  }
+  .item p,
+  .item footer {
+    width: 588px;
+  }
+}
